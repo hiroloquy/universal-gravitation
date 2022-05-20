@@ -6,11 +6,22 @@ This gnuplot script simulates universal gravitation between the Earth and the Mo
 
 ## Modeling
 Let
+
 $$
-    \mathrm{Earth}: \boldsymbol{R} = \begin{bmatrix}0\\0\end{bmatrix}\ ,\ 
-    \mathrm{Moon}: \boldsymbol{r} = \begin{bmatrix}x\\y\end{bmatrix}.
+    \mathrm{Earth}: \boldsymbol{R} = 
+    \begin{bmatrix}
+        0\\
+        0
+    \end{bmatrix}\ ,\ 
+    \mathrm{Moon}: \boldsymbol{r} = 
+    \begin{bmatrix}
+        x\\
+        y
+    \end{bmatrix}.
 $$
+
 Then, 
+
 $$
 m \frac{\mathrm{d}^2\boldsymbol{r}}{\mathrm{d}t^2}=-G\frac{mM}{\left\|\boldsymbol{r}\right\|^3}\boldsymbol{r}
 $$
